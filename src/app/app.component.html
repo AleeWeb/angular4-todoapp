@@ -1,0 +1,13 @@
+<div class = "main">
+  <h1>Item's List</h1>
+  <div class="addItem">
+    <input [(ngModel)] = "newItem" placeholder="Add Item" class="addText"> <!--Data Binding to Variable-->
+    <button (click) = "pushItem()">Add</button>
+  </div>
+  <ul>
+    <li *ngFor = "let i of items; let ind = index"> <!--index of array name "items"-->
+      {{i}}  <!--Data Binding-->
+      <span (click) = "removeItem(ind)">x</span><!--Allows X button delete remove items-->
+    </li>
+  </ul>
+</div>
