@@ -1,6 +1,8 @@
-# Youtubeapp
+# Angular4 To Do App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3. Add items and remove them dynamically.
+
+<img src="http://i.imgur.com/BTpVAvt.jpg" width="500" alt="To Do App Screenshot"/>
 
 ## Development server
 
